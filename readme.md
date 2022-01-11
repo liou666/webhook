@@ -2,6 +2,10 @@
 
 > 服务器需要配置git，node，docker环境，并且需要配置ssh密钥
 
++ webhook配置
+
+   `webhook url`上目前需加上**branch** `params` http://localhost:8000?branch=master
+
 + 项目启动
 
     ```shell
@@ -10,7 +14,7 @@
         node app.js
     ```
 
-+ 基础配置
++ 项目基础配置
 
     ```js
     // config/constant.js
